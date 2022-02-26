@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+}
+
+a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+}
+
+.tab-menu {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    /* justify-content: flex-start; */
+    align-items: center;
+    border-bottom: 1px solid #E5EAEF;
+    background-color: white;
+    max-width: 540px;
+}
+
+.tab-menu-item {
+    margin-right: 16px;
+}
+
+.tab-menu-item a {
+    display: block;
+    padding: 16px 20px;
+}
+
+.tab-menu-item.selected {
+    border-bottom: 2px solid #2860E1;
+}
+
+.tab-menu-item.selected a {
+    color: #2860E1;
+    font-weight: 500;
+}
