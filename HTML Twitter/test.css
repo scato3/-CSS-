@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: relative;
+    width: 360px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #CCCCCC;
+}
+
+.header-icon {
+    position: absolute;
+    font-size: 22px;
+    left: 15px;
+    top: 5px;
+}
+
+.header-icons {
+    position: absolute;
+    font-size: 22px;
+    right: 15px;
+    top: 5px;
+}
+
+.header-test {
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 20px;
+}
