@@ -1,33 +1,148 @@
-.container {
-    display: flex;
-    justify-content: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.header {
+body {
+    background: #CCCCCC;
+}
+
+.container {
     position: relative;
     width: 360px;
     height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
     display: flex;
     justify-content: center;
-    background-color: #CCCCCC;
+    height: 75px;
 }
 
 .header-icon {
     position: absolute;
     font-size: 22px;
+    color:#BDBDBD;
+    top: 15px;
     left: 15px;
-    top: 5px;
 }
 
 .header-icons {
     position: absolute;
     font-size: 22px;
+    color:#BDBDBD;
+    top: 15px;
     right: 15px;
-    top: 5px;
 }
 
 .header-test {
+    padding-top: 20px;
     font-size: 23px;
     font-weight: 600;
-    margin-top: 20px;
+    letter-spacing: 0.04em;
+}
+
+.card-content {
+    position: relative;
+    display: flex;
+    margin: 0 10px;
+    width: 340px;
+    height: 94px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+
+.card-image img {
+    padding: 15px 0 13px 35px;
+}
+
+.card-property {
+    margin: 17px 0 17px 50px;
+}
+
+.card-property p {
+    font-size: 10px;
+    font-weight: 300;
+    padding-left: 5px;
+    color:#BFBFBF;
+}
+
+.card-property span {
+    font-size: 15px;
+    font-weight: 300;
+    color: #909090;
+}
+
+.property-image img {
+    position: absolute;
+    top: 22px;
+    right: 16px;
+}
+
+.card-price {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-price-desc {
+    position: relative;
+}
+
+.card-price strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 18px;
+    margin-left: 50px;
+    background-color: #6B0090;
+    border-radius: 2px;
+    font-size: 11px;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.card-price .dis-price {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #515151;
+    letter-spacing: -0.04em;
+}
+
+.card-price .normal-price {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 7px;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    color: #BFBFBF;
+    text-decoration-line: line-through;
+}
+
+.card-price span {
+    margin-left: 16px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #7B7B7B;
+}
+
+.nav {
+    position: absolute;
+    height: 60px;
+    background-color: #fff;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 17px;
+    border-top: 1px solid rgba(136, 136, 136, 0.45);
 }
