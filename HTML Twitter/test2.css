@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #CCCCCC;
+}
+
+.container {
+    position: relative;
+    width: 360px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.input-container {
+    margin-left: 32px;
+}
+
+.input-header {
+    display: flex;
+    height: 90px;
+}
+.input-header .search-bar {
+    position: relative;
+    margin: 36px 19px 0 0;
+}
+
+.input-header .search-bar input {
+    width: 240px;
+    height: 37px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-header .search-bar input:focus {
+    outline: none;
+}
+
+.input-header .search-bar img {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.input-header p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 45px;
+    color:#747474;
+    cursor: pointer;
+}
+.input-searched .recent-searched {
+    font-size: 11px;
+    font-weight: 300;
+    color: #747474;
+}
+.searched-container {
+    display: flex;
+}
+
+.searched-container .searched-item {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+    width: 110px;
+    height: 37px;
+    background-color: #F8F8F8;
+    color: #747474;
+    margin: 10px 10px 10px 0;
+    padding-right: 20px;
+}
+
+.searched-container .searched-item img {
+    position: absolute;
+    top: 13.5px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+}
+
+.input-searched::after {
+    content: '';
+    display: block;
+    width: 296px;
+    border-bottom: 1px solid #747474;
+    margin: 10px 0 10px 0;
+}
+
+.searched-delete {
+    text-align: right;
+    font-size: 11px;
+    font-weight: 300;
+    color: #747474;
+    padding-right: 32px;
+}
+
+.nav {
+    position: absolute;
+    height: 60px;
+    background-color: #fff;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 17px;
+    border-top: 1px solid rgba(136, 136, 136, 0.45);
+}
